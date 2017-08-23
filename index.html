@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>settings</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+</head>
+<body>
+<div class="all">
+    <nav class="nav">
+        <button>
+            <img src="img/back.png">
+        </button>
+        <button>
+            <img src="img/inf.png">
+        </button>
+        <button>
+            <img src="img/que.png">
+        </button>
+        <button class="active">
+            <img src="img/set.png">
+        </button>
+    </nav>
+    <div class="title">
+        <h1>SETTINGS</h1>
+    </div>
+    <main>
+        <div class="range">
+            <div class="left-wrapper">
+                <h2 class="name">
+                    Coin value
+                </h2>
+                <div class="coin set">
+                    <input type="radio" id="ka1" name="ak" value="0.01"/>
+                    <label for="ka1" class="fl">0.01</label>
+
+                    <input type="radio" id="ka2" name="ak" checked="checked" value="0.02"/>
+                    <label for="ka2">0.02</label>
+
+                    <input type="radio" id="ka3" name="ak" value="0.05"/>
+                    <label for="ka3">0.05</label>
+
+                    <input type="radio" id="ka4" name="ak" value="0.1"/>
+                    <label for="ka4">0.1</label>
+
+                    <input type="radio" id="ka5" name="ak" value="0.2"/>
+                    <label for="ka5">0.2</label>
+
+                    <input type="radio" id="ka6" name="ak" value="0.5"/>
+                    <label for="ka6">0.5</label>
+
+                    <input type="radio" id="ka7" name="ak" value="1"/>
+                    <label for="ka7">1</label>
+
+                    <input type="radio" id="ka8" name="ak" value="2"/>
+                    <label for="ka8">2</label>
+
+                    <input type="radio" id="ka9" name="ak" value="5"/>
+                    <label for="ka9" class="ll">5</label>
+                </div>
+
+                <h2 class="name">
+                    Bet
+                </h2>
+                <div class="bet set">
+                    <input type="radio" id="ba1" name="ab" value="1"/>
+                    <label for="ba1" class="fl">1</label>
+
+                    <input type="radio" id="ba2" name="ab" checked="checked" value="2"/>
+                    <label for="ba2">2</label>
+
+                    <input type="radio" id="ba3" name="ab" value="3"/>
+                    <label for="ba3">3</label>
+
+                    <input type="radio" id="ba4" name="ab" value="4"/>
+                    <label for="ba4">4</label>
+
+                    <input type="radio" id="ba5" name="ab" value="5"/>
+                    <label for="ba5">5</label>
+
+                    <input type="radio" id="ba10" name="ab" value="10"/>
+                    <label for="ba10">10</label>
+
+                    <input type="radio" id="ba20" name="ab" value="20"/>
+                    <label for="ba20">20</label>
+
+                    <input type="radio" id="ba30" name="ab" value="30"/>
+                    <label for="ba30">30</label>
+
+                    <input type="radio" id="ba40" name="ab" value="40"/>
+                    <label for="ba40">40</label>
+
+                    <input type="radio" id="ba50" name="ab" value="50"/>
+                    <label for="ba50">50</label>
+
+                    <input type="radio" id="ba100" name="ab" value="100"/>
+                    <label for="ba100">100</label>
+
+                    <input type="radio" id="ba200" name="ab" value="200"/>
+                    <label for="ba200" class="ll">200</label>
+                </div>
+            </div>
+            <div class="right-wrapper">
+                <h2 class="name">Total bet</h2>
+                <div id="total">
+                    <p>
+                        0.36
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="media">
+            <div class="block">
+                <div class="tag">
+                    <h2 class="name">
+                        Game sounds
+                    </h2>
+                    <h4 class="sub">
+                        Enable/Disable
+                    </h4>
+                </div>
+                <div class="radio set">
+                    <input type="radio" id="so1" name="os" checked="checked"/>
+                    <label for="so1">on</label>
+
+                    <input type="radio" id="so2" name="os"/>
+                    <label for="so2">off</label>
+                </div>
+            </div>
+            <div class="block">
+                <div class="tag">
+                    <h2 class="name">
+                        Music
+                    </h2>
+                    <h4 class="sub">
+                        Enable/Disable
+                    </h4>
+                </div>
+                <div class="radio set">
+                    <input type="radio" id="mu1" name="um" checked="checked"/>
+                    <label for="mu1">on</label>
+
+                    <input type="radio" id="mu2" name="um"/>
+                    <label for="mu2">off</label>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
